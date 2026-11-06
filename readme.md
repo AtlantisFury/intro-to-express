@@ -97,3 +97,17 @@ Response specific:
 
 - Status Code - health of our req/res (200, 201, 403, 404, 500 and so on)
 - Payload - the goodies
+
+### .gitignore
+
+- git file allowing us to define the files and folder we don't want to track
+- helpful for ignoring environment variables, dependencies, etc.
+
+### .env
+
+A dependency which allows us to load secret variables into an .env file which is then loaded into Node's process. That way, the file doesn't have to be exposed into our code repo.
+
+To install:
+
+- `npm i dotenv`
+- create your `.env` file within the projects folder
